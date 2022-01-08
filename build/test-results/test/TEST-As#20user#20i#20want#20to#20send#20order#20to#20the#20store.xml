@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="As user i want to send order to the store" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-01-07T19:11:04" hostname="BG-D-JNAVAS01" time="6.161">
+  <properties/>
+  <testcase name="Validate that the user send order with status code and response ID" classname="As user i want to send order to the store" time="1.607"/>
+  <testcase name="Validate the correct delete the order" classname="As user i want to send order to the store" time="4.545"/>
+  <system-out><![CDATA[44
+55
+200
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Given the user send order to the store
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Juan order store
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Juan executes a POST on the resource /store/order
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then validate status code and id response
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then compare state data
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Validate that the user send order with status code and response ID
+----------------------------------------------------------------------------?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP When create order and Delete the order
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Juan delete order
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Juan executes a POST on the resource /store/order
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Juan executes a DELETE on the resource /store/order/55
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP The order was delete
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then the user status an response ok of delete
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then compare state data
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Validate the correct delete the order
+----------------------------------------------------------------------------?[0m
+]]></system-err>
+</testsuite>

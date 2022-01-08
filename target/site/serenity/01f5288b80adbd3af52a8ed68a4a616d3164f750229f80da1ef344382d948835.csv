@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As a user i want to find status","validate that the user can search by the available status","SUCCESS","2022-01-07T14:10:47.392-05:00[America/Bogota]","0.0","8.95"
+"As a user i want to find status","validate that the user can search by the Pending status","SUCCESS","2022-01-07T14:10:56.354-05:00[America/Bogota]","0.0","2.42"
+"As a user i want to find status","validate that the user can search by the Sold status","SUCCESS","2022-01-07T14:10:58.774-05:00[America/Bogota]","0.0","2.12"
+"As user i want to create new pet to the store","Validate that the new pet is on the store","SUCCESS","2022-01-07T14:11:02.342-05:00[America/Bogota]","0.0","2.19"
+"As user i want to send order to the store","Validate that the user send order with status code and response ID","SUCCESS","2022-01-07T14:11:04.6-05:00[America/Bogota]","0.0","1.61"
+"As user i want to send order to the store","Validate the correct delete the order","SUCCESS","2022-01-07T14:11:06.216-05:00[America/Bogota]","0.0","4.55"
+"As user i wanto to Send my personal data and Password","Validate the update of user information","SUCCESS","2022-01-07T14:11:10.839-05:00[America/Bogota]","0.0","3.65"

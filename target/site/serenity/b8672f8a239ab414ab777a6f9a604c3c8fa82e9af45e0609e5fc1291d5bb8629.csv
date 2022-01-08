@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As user i want to send order to the store","Validate that the user send order with status code and response ID","SUCCESS","2022-01-07T14:11:04.6-05:00[America/Bogota]","0.0","1.61"
